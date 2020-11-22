@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "wedoo_sdk",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "app_core",
+            "cwd": "packages/app_core",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "onboarding",
+            "cwd": "packages/onboarding",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "signed_in",
+            "cwd": "packages/signed_in",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
