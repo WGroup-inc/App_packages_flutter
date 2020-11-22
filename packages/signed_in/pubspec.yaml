@@ -12,3 +12,14 @@ dependencies:
   app_core:
     path: ../app_core
   meta: ^1.2.4
+
+  #localize
+  flutter_localizations:
+    sdk: flutter
+    
+flutter:
+  assets:
+  #Lang
+    - assets/lang/en.json
+    - assets/lang/vi.json
+    
