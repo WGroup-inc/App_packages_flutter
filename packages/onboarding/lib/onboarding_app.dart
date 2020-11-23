@@ -1,7 +1,7 @@
 import 'package:app_core/app_options.dart';
 import 'package:flutter/material.dart';
 
-import './resources/app_localizations.dart';
+import './resources/resouces.dart';
 
 class OnboardingApp extends StatelessWidget {
   @override
@@ -25,9 +25,13 @@ class OnboardingApp extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      RaisedButton(
-                        child: Text('Vietnamese'),
-                        onPressed: () {
+                      GestureDetector(
+                        child: Image.asset(
+                          AssetsImages.vietnameseFlag,
+                          width: 100,
+                          height: 100,
+                        ),
+                        onTap: () {
                           AppOptions.update(
                             context,
                             AppOptions.of(context).copyWith(
@@ -39,9 +43,13 @@ class OnboardingApp extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 50),
                       ),
-                      RaisedButton(
-                        child: Text('English'),
-                        onPressed: () {
+                      GestureDetector(
+                        child: Image.asset(
+                          AssetsImages.unitedKingdomFlag,
+                          width: 100,
+                          height: 100,
+                        ),
+                        onTap: () {
                           AppOptions.update(
                             context,
                             AppOptions.of(context).copyWith(
