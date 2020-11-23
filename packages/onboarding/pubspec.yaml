@@ -22,4 +22,5 @@ flutter:
   #Lang
     - assets/lang/en.json
     - assets/lang/vi.json
-    
+    - assets/icons/vietnam_flag.png
+    - assets/icons/united_kingdom_flag.png
